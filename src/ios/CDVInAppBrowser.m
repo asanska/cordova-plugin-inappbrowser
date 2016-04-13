@@ -599,7 +599,7 @@
     self.backButton.enabled = YES;
     self.backButton.imageInsets = UIEdgeInsetsZero;
 
-    [self.toolbar setItems:@[self.backButton, fixedSpaceButton, flexibleSpaceButton]];
+    [self.toolbar setItems:@[fixedSpaceButton, self.backButton, flexibleSpaceButton]];
 
     self.view.backgroundColor = [UIColor grayColor];
     [self.view addSubview:self.toolbar];
